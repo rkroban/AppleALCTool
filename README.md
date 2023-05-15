@@ -21,6 +21,3 @@ Credits:
 
 
 * [Acidanthera](https://github.com/acidanthera/AppleALC) for AppleALC
-
-
-* [spatialaudio](https://github.com/spatialaudio/python-sounddevice/) for sounddevice

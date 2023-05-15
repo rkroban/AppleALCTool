@@ -19,7 +19,7 @@ NOTE: Will only work with Realtek Audio Codecs upon completion. Additional suppo
 **What works:**
 
 
-* Scan.py can now dump information about all devices in Device Manager
+* Scan.py can now dump a list of all devices in Device Manager
 
 
 

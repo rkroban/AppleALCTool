@@ -16,8 +16,21 @@ NOTE: Will only work with Realtek Audio Codecs upon completion. Additional suppo
 * windows 10 or higher
 
 
+**What works:**
 
-Credits:
+
+* Scan.py can now dump information about all devices in Device Manager
+
+
+
+**What doesn't work:**
+
+
+* Everything else
+
+
+
+**Credits:**
 
 
 * [Acidanthera](https://github.com/acidanthera/AppleALC) for AppleALC

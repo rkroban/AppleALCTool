@@ -1,3 +1,3 @@
 import List
 import subprocess
-subprocess.call('powershell.exe', shell=True)
+power = subprocess.call('powershell.exe -ExecutionPolicy RemoteSigned -file "getDevice.ps1"', shell=True)

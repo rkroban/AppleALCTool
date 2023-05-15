@@ -21,3 +21,5 @@ Credits:
 
 
 * [Acidanthera](https://github.com/acidanthera/AppleALC) for AppleALC
+
+* [Microsoft](https://www.microsoft.com/)

@@ -19,9 +19,7 @@ NOTE: Will only work with Realtek Audio Codecs upon completion. Additional suppo
 **What's new:**
 
 
-* Main.py has been renamed to scan.py
-
-* scan.py will print the audio codec id in command prompt when run
+* Scan.py now outputs the audio codec and layoud ids of the user's device
 
 
 

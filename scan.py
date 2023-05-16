@@ -1,6 +1,6 @@
 #by @rkroban
 import subprocess
-subprocess.call('powershell.exe -ExecutionPolicy RemoteSigned -file "getDevice.ps1"', shell=True)
+subprocess.call('powershell.exe -ExecutionPolicy Unrestricted -file "getDevice.ps1"', shell=True)
 count = 0
 realtk = 0
 with open("deviceInfo.txt") as devices:

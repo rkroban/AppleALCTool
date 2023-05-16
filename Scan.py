@@ -1,3 +1,4 @@
+import Main
 with open("codecList.txt") as list:
     codecList = list.read()
     if '0257' in codecList:

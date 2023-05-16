@@ -7,7 +7,7 @@ NOTE: Will only work with Realtek Audio Codecs upon completion. Additional suppo
 * a realtek soundcard 
 
 
-* a intel processor, AMD has no support for it's microphones, but has functional audio
+* a intel processor, AMD has no support for it's microphones, but has functional audio (This doesn't matter right now since the script can't build kernel extensions yet)
 
 
 * Python 3.11 or higher installed, you can get python [here](https://www.python.org/downloads/)

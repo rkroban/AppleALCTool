@@ -16,17 +16,12 @@ NOTE: Will only work with Realtek Audio Codecs upon completion. Additional suppo
 * windows 10 or higher
 
 
-**What works:**
+**What's new:**
 
 
-* Main.py can now dump the hardware ids on all hd devices in windows
+* Main.py has been renamed to scan.py
 
-
-
-**What doesn't work:**
-
-
-* Everything else =(
+* scan.py will print the audio codec id in command prompt when run
 
 
 

@@ -7,9 +7,3 @@ Credits:
 
 
 * [Acidanthera](https://github.com/acidanthera/AppleALC) for AppleALC
-
-
-* [Apple](https://apple.com) for macOS
-
-
-* [Apple](https://apple.com) for Xcode

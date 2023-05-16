@@ -3,16 +3,13 @@ Work in progress, will eventually be cabale of building AppleALC.kext while also
 
 NOTE: Will only work with Realtek Audio Codecs upon completion. Additional support may be added later
 
-credits
+credits:
 
 
-[Acidanthera](https://github.com/acidanthera/AppleALC) for AppleALC
+* [Acidanthera](https://github.com/acidanthera/AppleALC) for AppleALC
 
 
-[Apple](https://apple.com) for macOS
+* [Apple](https://apple.com) for macOS
 
 
-[Apple](https://apple.com) for Xcode
-
-
-
+* [Apple](https://apple.com) for Xcode

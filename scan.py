@@ -26,3 +26,4 @@ with open("codecList.txt") as codecs:
             break
 subprocess.call('del deviceInfo.txt', shell=True)
 subprocess.call('del codecList.txt', shell=True)
+subprocess.call('del deviceInfoBase.txt', shell=True)

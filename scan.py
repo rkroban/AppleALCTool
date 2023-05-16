@@ -9,21 +9,27 @@ with open("deviceInfo.txt") as devices:
     for line in devices:
         if line != "\n":
             count += 1
-print('Total Lines', count)
 #find the line where the Realtek Hardware ids start in the output file and record it as 'realtk'
 with open("deviceInfo.txt") as devices:
     for i, line in enumerate(devices):
         if 'Realtek' in line:
             i += 3
             realtk = i
-            print(f'{i}')
 #print the line containing the codec id
 with open("deviceInfo.txt") as devices:
     for i, line in enumerate(devices):
         if i == realtk:
-            print(f'{line}')
             #find the index of DEV_ at line and print the codec id
             if 'DEV_' in line:
-                print(f'{line.index("DEV_")}')
-                print(f'{line[line.index("DEV_") + 4:line.index("DEV_") + 8]}')
                 codec = {line[line.index("DEV_") + 4:line.index("DEV_") + 8]}
+#set hdcodec as string of codec id
+hdcodec = ''.join(codec)
+#read the codec id from the output file and search the database for the codec id
+with open("codecList.txt") as codecs:
+    for line in codecs:
+        if hdcodec in line:
+            print('your codec id, codec, patch, possible layout ids, minimum kernel, and maximum kernel are')
+            print(f'{line}')
+            break
+#delete the output file
+subprocess.call('del deviceInfo.txt', shell=True)

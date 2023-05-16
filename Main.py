@@ -4,8 +4,9 @@ import subprocess
 #execute the powershell script with no restrictions until the script is complete
 subprocess.call('powershell.exe -ExecutionPolicy RemoteSigned -file "getDevice.ps1"', shell=True)
 #find the number of lines with text in the output file
+count = 0
+realtk = 0
 with open("deviceInfo.txt") as devices:
-    count = 0
     for line in devices:
         if line != "\n":
             count += 1
@@ -21,5 +22,5 @@ with open("deviceInfo.txt") as devices:
             realtktmp += 1
             realtk = realtktmp
             print(f'Realtek hardware ids starting at index {realtk_index} of line {realtk}')
-#delete every line before realtk as it is unnecessary
-print('now deleting unncessesary data to clean up output file')
+#search the lines after 'realtk' to fint he audio codec
+print('now checking the data to find the audio codec')

@@ -1,2 +1,3 @@
 cd
-.\devcon hwids *HDAUDIO* > deviceInfo.txt
+.\devcon hwids *HDAUDIO* > deviceInfoBase.txt
+Get-Content .\deviceInfoBase.txt | Set-Content -Encoding UTF8 .\deviceInfo.txt

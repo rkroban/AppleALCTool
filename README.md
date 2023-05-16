@@ -26,7 +26,7 @@ NOTE: Will only work with Realtek Audio Codecs upon completion. Additional suppo
 **What doesn't work:**
 
 
-* Everything else=(
+* Everything else =(
 
 
 

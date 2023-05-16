@@ -3,4 +3,5 @@ with open("codecList.txt") as list:
     if '0257' in codecList:
         print('string exists in file')
     else:
-        print('you stupid goober')
+        print('your audio codec is currently not supported')
+        print('=(')

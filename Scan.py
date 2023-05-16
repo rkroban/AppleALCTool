@@ -1,5 +1,5 @@
 import List
-from infi.devicemanager import DeviceManager
+import DeviceManager
 dm = DeviceManager()
 dm.root.rescan()
 devices = dm.all_devices

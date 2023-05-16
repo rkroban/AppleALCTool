@@ -7,3 +7,6 @@ Credits:
 
 
 * [Acidanthera](https://github.com/acidanthera/AppleALC) for AppleALC
+
+
+* [zea2](https://github.com/zea2/DeviceManager/tree/master) for DeviceManager

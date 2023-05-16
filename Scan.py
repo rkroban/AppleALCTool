@@ -1,2 +1,2 @@
-import fileinput
-codecs = open("codecList.txt", "rt")
+with open("codecList.txt") as list:
+    print(list.read())

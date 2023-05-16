@@ -1,2 +1,2 @@
 import fileinput
-codecs = open("codecs.html", "rt")
+codecs = open("codecList.txt", "rt")

@@ -35,4 +35,6 @@ NOTE: Will only work with Realtek Audio Codecs upon completion. Additional suppo
 
 * [Acidanthera](https://github.com/acidanthera/AppleALC) for AppleALC
 
-* [Microsoft](https://www.microsoft.com/) for DeviceManager cmdlet and Unblock-File cmdlet
+* [Microsoft](https://www.microsoft.com/) for Unblock-File cmdlet
+
+* [Microsoft](https://www.microsoft.com/) for DevCon.exe

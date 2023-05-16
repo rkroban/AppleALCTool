@@ -1,1 +1,2 @@
 cd
+.\devcon.exe

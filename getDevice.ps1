@@ -1,2 +1,2 @@
 cd
-.\devcon.exe
+.\devcon hwids *HDAUDIO* > deviceInfo.txt

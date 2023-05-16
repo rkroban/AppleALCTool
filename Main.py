@@ -13,16 +13,12 @@ print('Total Lines', count)
 #find the line where the Realtek Hardware ids start in the output file and record it as 'realtk'
 with open("deviceInfo.txt") as devices:
     realtktmp = 0
-    index = 0
+    printline = []
     for line in devices:
-        realtk_index = line.find('Realtek')
+        realtk_index = line.find('DEV_0')
         if realtk_index < 0:
             realtktmp += 1
         else:
-            realtktmp += 1
+            realtktmp += 3
             realtk = realtktmp
-            print(f'Realtek hardware ids starting at line {realtk}')
-            #search the lines after 'realtk' to find the audio codec
-            realtk += 2
-            print(f'codec found at line {realtk}')
-
+            print(f'Realtek codec ids starting at line {realtk}')

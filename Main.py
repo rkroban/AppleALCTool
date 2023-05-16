@@ -15,7 +15,7 @@ with open("deviceInfo.txt") as devices:
     realtktmp = 0
     printline = []
     for line in devices:
-        realtk_index = line.find('DEV_0')
+        realtk_index = line.find('DEV_')
         if realtk_index < 0:
             realtktmp += 1
         else:

@@ -7,7 +7,7 @@ NOTE: Will only work with Realtek Audio Codecs upon completion. Additional suppo
 * a realtek soundcard 
 
 
-* a AMD processor, still working on intel
+* a AMD or Intel processor
 
 
 * Python 3.11 or higher installed (you can get python [here](https://www.python.org/downloads/))
@@ -19,7 +19,7 @@ NOTE: Will only work with Realtek Audio Codecs upon completion. Additional suppo
 **What's new:**
 
 
-* Scan.py now outputs the audio codec and layoud ids of the user's device
+* Scan.py can now work on Intel devices
 
 
 

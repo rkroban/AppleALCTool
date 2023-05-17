@@ -24,6 +24,3 @@ with open("codecList.txt") as codecs:
             print('your codec id, codec, patch, possible layout ids, minimum kernel, and maximum kernel are')
             print(f'{line}')
             break
-subprocess.call('del deviceInfo.txt', shell=True)
-subprocess.call('del codecList.txt', shell=True)
-subprocess.call('del deviceInfoBase.txt', shell=True)

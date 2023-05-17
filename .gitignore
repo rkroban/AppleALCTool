@@ -1,5 +1,8 @@
 __pycache__/
 .vscode/
+Scanscripts/codecList.txt
+Scanscripts/deviceInfo.txt
+Scanscripts/deviceInfoBase.txt
 deviceInfo.txt
 deviceInfoBase.txt
 codecList.txt

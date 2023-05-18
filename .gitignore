@@ -3,3 +3,4 @@ __pycache__/
 deviceInfo.txt
 deviceInfoBase.txt
 codecList.txt
+output/test.exe

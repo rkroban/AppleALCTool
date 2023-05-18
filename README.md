@@ -1,7 +1,6 @@
 # AppleALCTool
-Work in progress, will eventually be cabale of building AppleALC.kext while also providing info on audio codec and layout-id's
 
-NOTE: Will only work with Realtek Audio Codecs upon completion. Additional support may be added later
+**NOTE** only works with realtek audio devices for now, support for other codecs is a work in progress
 
 **Requirements:**
 * a realtek soundcard 
@@ -26,10 +25,8 @@ NOTE: Will only work with Realtek Audio Codecs upon completion. Additional suppo
 **Credits:**
 
 
-* [Acidanthera](https://github.com/acidanthera/AppleALC) for AppleALC
+* [Acidanthera](https://github.com/acidanthera/AppleALC) for AppleALC's codec list
 
 * [Python](https://www.python.org/) for Python
-
-* [Microsoft](https://www.microsoft.com/) for Unblock-File cmdlet
 
 * [Microsoft](https://www.microsoft.com/) for DevCon.exe

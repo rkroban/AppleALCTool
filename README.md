@@ -1,6 +1,6 @@
 # AppleALCTool
 
-**NOTE** only works with realtek audio devices for now, support for other codecs is a work in progress
+**NOTE** only works with realtek audio devices
 
 **Requirements:**
 * a realtek soundcard 

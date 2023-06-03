@@ -18,7 +18,7 @@
 **What's new:**
 
 
-* Scan.py can now work on Intel devices
+* Scan.py can now work on PCs with Intel Motherboards
 
 
 

@@ -1,5 +1,15 @@
 # AppleALCTool
 
+
+- Hey, Roban Here.
+I don't work on this repository, and to be honest it's just a simple script that 
+reads a file for an audio device and spits out the codec. It is something that could
+be accomplished in a single line, or with better accuracy by polling the OS for devices.
+But this is my first repo, so it has some sentimental value, hence why I keep it around.
+
+
+---
+
 **NOTE** only works with realtek audio devices
 
 **Requirements:**
